@@ -1255,7 +1255,7 @@
                 // Animate the counters
                 animateCounter(document.getElementById('subscribers'), mockData.subscribers);
                 animateCounter(document.getElementById('views'), mockData.views);
-                animateCounter(document.getElementById('videos'), mockData.videoCount);
+                animateCounter(document.getElementById('videoss'), mockData.videoCount);
                 animateCounter(document.getElementById('discord'), mockData.discordMembers);
                 
                 // Update Discord count text if element exists
@@ -1270,13 +1270,13 @@
                 const defaults = {
                     subscribers: 5200,
                     views: 255000,
-                    videos: 47,
+                    videoss: 47,
                     discord: 1200
                 };
                 
                 animateCounter(document.getElementById('subscribers'), defaults.subscribers);
                 animateCounter(document.getElementById('views'), defaults.views);
-                animateCounter(document.getElementById('videos'), defaults.videos);
+                animateCounter(document.getElementById('videoss'), defaults.videoss);
                 animateCounter(document.getElementById('discord'), defaults.discord);
                 
                 const discordCountElement = document.getElementById('discord-count');
